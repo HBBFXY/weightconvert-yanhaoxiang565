@@ -7,4 +7,4 @@ elif weight_str[-2:]=="pd":
     kilogram=float(weight_str[0:-2])/2.2046
     print("对应的公制重量为{:.3f}公斤".format(kilogram))
 else:
-    print("输入格式错误“）
+    print("输入格式错误"）
