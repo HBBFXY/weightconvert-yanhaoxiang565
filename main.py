@@ -1,7 +1,6 @@
 weight = input().strip()
 unit = weight[-2:].lower()
 num_part = weight[:-2]
-
 try:
     num = float(num_part)
     if unit == "kg":
